@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --per: 50%;
+}
+body{
+    padding: 25px;
+    max-width: 900px;
+    background: linear-gradient(45deg, rgb(255, 255, 255), rgb(230, 230, 250   ));
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+a:visited{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    padding-left: 20px;
+}
+
+h2{
+    padding: 12px 0 8px 0px;
+}
+
+
+.opdrachtenlijst{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.opdracht{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 6px;
+    transition: border 0.2s ease-in;
+    height: 300px;
+}
+.opdracht:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
